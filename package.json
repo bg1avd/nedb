@@ -1,23 +1,28 @@
 {
-  "name": "nedb",
-  "version": "1.8.0",
+  "name": "@raolin2025/nedb-promise",
+  "version": "1.8.1",
   "author": {
-    "name": "Louis Chatriot",
-    "email": "louis.chatriot@gmail.com"
+    "name": "Rao Lin",
+    "email": "raolin@example.com"
   },
   "contributors": [
-    "Louis Chatriot"
+    "Louis Chatriot (original author)",
+    "Rao Lin (modernized by)"
   ],
-  "description": "File-based embedded data store for node.js",
+  "description": "A modernized fork of NeDB with Promise/async-await support. Original: https://github.com/louischatriot/nedb",
   "keywords": [
     "database",
     "datastore",
-    "embedded"
+    "embedded",
+    "promise",
+    "async-await",
+    "nedb",
+    "mongodb"
   ],
-  "homepage": "https://github.com/louischatriot/nedb",
+  "homepage": "https://github.com/bg1avd/nedb-promise",
   "repository": {
     "type": "git",
-    "url": "git@github.com:louischatriot/nedb.git"
+    "url": "https://github.com/bg1avd/nedb-promise.git"
   },
   "dependencies": {
     "binary-search-tree": "0.2.5",
@@ -37,10 +42,13 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000"
   },
-  "main": "index",
+  "main": "index.js",
   "browser": {
     "./lib/customUtils.js": "./browser-version/browser-specific/lib/customUtils.js",
     "./lib/storage.js": "./browser-version/browser-specific/lib/storage.js"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
