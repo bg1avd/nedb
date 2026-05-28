@@ -21,3 +21,9 @@ browser-version/node_modules
 *.swp
 *~
 *.swo
+
+# Security: never commit npm auth tokens
+.npmrc
+
+# Claude Code sessions (not project content)
+.claude-code/

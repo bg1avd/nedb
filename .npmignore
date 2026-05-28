@@ -1,0 +1,33 @@
+# Claude Code sessions
+.claude-code/
+
+# npm auth (NEVER publish this)
+.npmrc
+
+# Development files
+benchmarks/
+test/
+test_lac/
+
+# Build artifacts
+browser-version/test/
+browser-version/src/
+browser-version/node_modules/
+
+# Documentation (not needed at runtime)
+MODERNIZATION_P0.md
+MODERNIZATION_P1.md
+README_PROMISE.md
+
+# Obsolete package managers
+bower.json
+
+# Editor / OS files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Workspace data
+workspace/

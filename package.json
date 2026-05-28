@@ -1,6 +1,6 @@
 {
   "name": "@raolin2025/nedb-promise",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Rao Lin",
     "email": "raolin@example.com"
@@ -52,5 +52,15 @@
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "browser-version/out/",
+    "browser-version/browser-specific/",
+    "browser-version/build.js",
+    "browser-version/package.json",
+    "LICENSE",
+    "README.md"
+  ]
 }
